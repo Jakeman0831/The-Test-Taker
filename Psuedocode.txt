@@ -17,3 +17,18 @@ while (true) {
   continue;
   }
 }
+
+createfile(){
+  print "test file name";
+  cin>>filename
+  print "number of problems";
+  cin>>problemcount;
+  file newfile;
+  while(problemcount>0){
+    fileadd(newfile,createproblem());
+  }
+  createdirectory(newfile,"../"+filename+".txt");
+}
+createproblem(){
+  print "
+}
