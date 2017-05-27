@@ -39,7 +39,7 @@ if(myA[counter] != aline){
     wrongs++;
 }
     if(myA[counter] == aline){
-            -
+            
         cout << "Right!" << endl;
 
 }
