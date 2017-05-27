@@ -1,1 +1,19 @@
 We should collaborate on our psuedocode here
+
+//Person One:
+
+Open Console
+print "Welcome to Test Taker!\nIf you would like to start a test enter 'Test', if you would like to create a test enter 'Create'"<<endl;
+cin>>userinput;
+while (true) {
+  if (userinput == 'Test') {
+  printoutfile();
+  }
+  else if (userinput == 'Create') {
+  createproblem();
+  }
+  else {
+  print "You did not enter a correct option, please try again!"
+  continue;
+  }
+}
